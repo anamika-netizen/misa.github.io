@@ -1,0 +1,404 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 2rem;
+  
+  }
+  
+  a {
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  
+  .html {
+    font-size: 80%;
+  }
+  /* --------------HERO-SECTION---------------- */
+
+  .name {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #7E354D;
+    color:  white;
+    font-size: 1.5rem;
+    cursor: pointer;
+   text-align: center;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', monospace;
+  }
+  
+.nav-top{
+    display: flex;
+margin-top: -8.5rem;
+   width: 100%;
+   font-size: 15px;
+    background-color: white;
+}
+
+
+.nav-list1 {
+    display: none;
+  }
+  
+  .nav-list1 {
+    display: flex;
+    margin-left: 30rem;
+    background-color: white;
+}
+
+.nav-list1 a {
+    font-family: 'Courier New', monospace;
+color: black;
+
+  }
+
+  
+.nav-list1 a:hover{
+  color:#CC919A;
+}
+  
+  
+    
+
+  .nav-link1{
+     margin-left: -36rem;
+  }
+
+  .nav-link2{
+   margin-left: 23rem;
+   font-weight: 700;
+  }
+
+.nav-right{
+    margin-left: 50rem;
+    display: flex;
+}
+.nav-link3{
+    font-weight: 600;
+}
+  .nav-link3, .nav-link4 , .nav-link5{
+    margin-left: 2rem;
+   }
+
+   
+  .nav-list {
+    display: none;
+  }
+  
+  .nav-items-right {
+    display: inline-block;
+    align-items: right;
+  }
+  
+  
+  .nav-list {
+    display: flex;
+    margin-left: 20rem;
+   
+  }
+  
+  
+  
+  .nav-list a {
+    margin-top: 4rem;
+  transform: translate(-50%, -50%);
+  margin-left: 2rem;
+color: red;
+font-family: 'Courier New', monospace;
+font-size: 15px;
+  }
+  
+  .nav-list a:first-child{
+    color: black;
+  }
+  
+
+  nav a:before{
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    border-bottom: 2px solid #a24463;
+    transition: all 0.4s linear;
+  }
+  
+  nav a:hover:before{
+    width: 100%;  
+  
+  }
+
+  
+.line-separator{
+    border: 1px solid #7E354D;
+  }
+  /* -----------section-1------------------ */
+.collaboration{
+    background-color: #E8ADAA;
+}
+
+
+.bg1{
+    height: 80vh;
+    width: 100vh;
+}
+
+.bg2{
+    height: 80vh;
+}
+/* -------------products----------------- */
+.products{
+    background-color: #E8ADAA;
+}
+.container{
+  padding-top: 10rem;
+  
+  }
+  .card{
+    position: relative;
+    overflow: hidden;
+  }
+  .card::before{
+    position: absolute;
+    content: '';
+    width: 80%;
+    height: 220%;
+    background: #E8ADAA;
+    top: -50%;
+    left: -100%;
+    z-index: 1;
+    transform: rotate(25deg);
+    transform-origin: center top 0;
+    transition: .5s;
+    opacity: 0.6;
+  }
+  .card:hover::before{
+    left: 10%;
+  }
+  .card-img{
+    width: 100%;
+    height: auto;
+  }
+  .card-text{
+    width: 100%;
+    padding: 0 20px;
+    position: absolute;
+    top: 100%;
+    color: #fff;
+    left: 0;
+    z-index: 2;
+    transition: 1.1s;
+  }
+  .card-text h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .card:hover .card-text{
+    top: 80px;
+  }
+
+
+  
+/* -------------button */
+
+
+.buy{
+    margin: 1.5rem 1.5rem 0 0;
+    display: inline-flex;
+    border: 2px solid white;
+    background-color: #a24463;
+    color: whi;
+    font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
+    font-size: 10px;
+  font-weight: 700;
+  padding: 14px 40px 15px;
+  height: 45px;
+  letter-spacing: 2px;
+  line-height: 14px;;
+  margin-bottom: 24px;
+  margin-top: 25px;
+  margin-left: 5rem;
+  }
+   
+  
+  .buy:hover {
+    box-shadow: 0 0.8rem 1rem #37021c ;
+  }
+  
+  .buy:hover {
+    color: #fac1ba;
+  }
+
+
+  /* ------------------- */
+
+  
+
+
+/* -----------------footer------------------- */
+.row1{
+  font-family: 'Courier New', monospace;
+  font-size: 1.3rem;
+  color: white;
+  letter-spacing: .2rem;
+  font-weight: 300;
+}
+
+.row2{
+  font-family: 'Courier New', monospace;
+  font-size: 1rem;
+  margin-top: 2.8rem;
+  color: white;
+  letter-spacing: .2rem;
+}
+
+.mail{
+  height: 30px;
+  width: 30%;
+  margin-top: 4rem;
+}
+
+.footer {
+  background-color: #7E354D;
+  padding: 8rem 0 6.4rem 0;
+  margin-top: 5rem;
+}
+
+
+.main-footer {
+  padding: 0 2.4rem;
+}
+.cont{
+    margin-left: 3rem;
+}
+
+
+
+.social-list {
+  display: none;
+}
+
+
+.social-list {
+  display: flex;
+  margin-left: 20rem;
+  float: right;
+  margin-top: -17rem;
+}
+
+
+
+.social-list a {
+   transform: translate(-50%, -50%);
+   margin-left: 0.2rem;
+color: white;
+align-self: left; 
+font-size: 22px;
+
+  
+}
+
+.social-list a:first-child{
+  color: #fff;
+}
+nav a:before{
+  content: "";
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  border-bottom: 2px solid #a24463;
+}
+
+
+
+
+/* -------------footer-section-2----------- */
+
+.footer-list {
+  font-size: 1.6rem;
+  text-decoration: none;
+
+
+}
+
+.list-b ul a ,  .list-a ul a {
+  color: #fff;
+  margin-top: 2rem;
+  height: 2.4rem;
+  
+
+}
+
+.list-b{
+    margin-left: 40%;
+    margin-top: -14%;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: .2rem;
+    width: 40%;
+}
+
+
+.list-a{
+    margin-left: -14%;
+    width: 60%;
+    margin-top: -14%;
+    font-size: 1rem;
+    letter-spacing: .2rem;
+    color: white;
+}
+
+.list-a ul a:hover,
+.list-b ul a:hover
+{
+  text-decoration: underline;
+}
+
+.list-1
+{
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.line-separator2{
+  border: 1px solid #fac1ba;
+}
+
+.row{
+  color: white;
+  font-size: 1.3rem;}
+
+  .mail1{
+    font-family: 'Courier New', monospace;
+    height: 30px;
+    width: 30%;
+    font-size: 1.4rem;
+  }
+

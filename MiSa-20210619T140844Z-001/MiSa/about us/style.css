@@ -1,0 +1,529 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 2rem;
+  
+  }
+  
+  a {
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  
+  .html {
+    font-size: 80%;
+  }
+  /* --------------HERO-SECTION---------------- */
+
+  .hero-content {
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    overflow: visible;
+   
+    
+    }
+
+
+
+  .name {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #7E354D;
+    color:  white;
+    font-size: 1.5rem;
+    cursor: pointer;
+   text-align: center;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', monospace;
+   
+  }
+  
+.nav-top{
+    display: flex;
+margin-top: -11.5rem;
+   width: 100%;
+   font-size: 15px;
+    background-color: white;
+}
+
+
+.nav-list1 {
+    display: none;
+  }
+  
+  .nav-list1 {
+    display: flex;
+    margin-left: 30rem;
+    background-color: white;
+}
+
+.nav-list1 a {
+    font-family: 'Courier New', monospace;
+color: black;
+
+  }
+
+
+  .nav-list1 a:hover{
+    color:#CC919A;
+  }
+      
+    
+
+  .nav-link1{
+     margin-left: -36rem;
+  }
+
+  .nav-link2{
+   margin-left: 23rem;
+   font-weight: 700;
+  }
+
+.nav-right{
+    margin-left: 50rem;
+    display: flex;
+}
+.nav-link3{
+    font-weight: 600;
+}
+  .nav-link3, .nav-link4 , .nav-link5{
+    margin-left: 2rem;
+   }
+
+   
+  .nav-list {
+    display: none;
+  }
+  
+  .nav-list {
+    display: flex;
+    margin-left: 20rem;
+   
+  }
+  
+  
+  
+  .nav-list a {
+    margin-top: 2rem;
+  transform: translate(-50%, -50%);
+  margin-left: 2rem;
+color: red;
+font-family: 'Courier New', monospace;
+font-size: 15px;
+  }
+  
+  .nav-list a:first-child{
+    color: black;
+  }
+  
+
+  nav a:before{
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    border-bottom: 2px solid #a24463;
+    transition: all 0.4s linear;
+  }
+  
+  nav a:hover:before{
+    width: 100%;  
+  
+  }
+
+  
+.line-separator{
+    border: 1px solid #7E354D;
+  }
+
+
+  
+  .hero-content {
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    overflow: visible; 
+    z-index: 0;   
+    }
+  
+.hero-content::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #1d2020;
+    opacity: 0.45;
+}
+
+  
+
+.primary-title {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+  position: absolute;
+top: 15%;
+left: 10%;
+transform: translate(-50%, -50%);
+color: #37021c;
+align-self: left; 
+font-size: 49px;
+font-weight: 300;
+    margin-top: 15rem;
+    margin-left: 4rem;
+    width: 30%;
+
+}
+
+
+
+.container{
+    margin-top: 10%;
+  
+  }
+
+
+  .text-group1{
+    font-family: 'Courier New', monospace;
+    font-size: 2rem;
+    width: 60%;
+  }
+
+  
+  .text-group2{
+    font-family: 'Courier New', monospace;
+    font-size: 2rem;
+    width: 60%;
+    text-align: right;
+    margin-left: 50rem;
+    margin-top: 4rem;
+  }
+
+  
+  .text-group3{
+    font-family: 'Courier New', monospace;
+    font-size: 2rem;
+    width: 60%;
+    margin-top: 4rem;
+    text-align: left;
+  }
+  
+  .text-group4{
+      text-align: center;
+      margin-top: 7rem;
+      font-weight: 900;
+      font-size: 4rem;
+      font-family: 'Courier New', monospace;
+      width: 50%;
+     margin-left: 32rem;
+  }
+
+  .wm1{
+      float: right;
+      margin-top: -25rem;
+  }
+
+  .wm2{
+    float: left;
+    margin-top: -22rem;
+}
+  
+  .wm3{
+    float: right;
+    margin-top: -16rem;
+  }
+
+  .subt{
+    text-align: center;
+   color: #7E354D;
+   font-weight: 700;
+    margin-top: 3rem;
+    font-family: 'Courier New', monospace;
+  }
+/* ---------------insta---------------- */
+.ig{
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  margin-left: 5rem;
+  font-size: 3rem;
+  font-weight: 300;
+}
+  .card1_{
+    height: 245px;
+  }
+  .card_2{
+    height:240px;
+    width: 251px;
+    margin-left: -2.3rem;
+  }
+.card_3{
+  margin-left: 0.8rem;
+  width: 200px;
+  height: 255px;
+  margin-top: 0.4rem;
+}
+.card_4{
+  height: 255px;
+  width: 300px;
+margin-left: -3.5rem;
+margin-top: 0.4rem;
+}
+  .card_5{
+ margin-left: -2.6rem;
+ margin-top: -12.6rem;
+ 
+
+  }
+
+  .card_6{
+  width: 505px;
+  margin-left: 1.5rem;
+  margin-top: -9.6rem;
+  }
+
+  .card_7{
+    margin-left: 12.7rem;
+    margin-top: -4.6rem;
+    height: 250px;
+    width: 250px;
+    }
+  
+  
+  .card_8{
+    margin-left: 10.2rem;
+    margin-top: -4.6rem;
+    height: 470px;
+    width: 328px;
+    }
+  
+
+    
+  .card_9{
+    margin-left: 4.5rem;
+    margin-top: 0.4rem;
+    height: 400px;
+    width: 300px;
+    }
+  
+    
+  .card_10{
+margin-left: -28.5rem;
+    margin-top: 0.2rem;
+    height: 155px;
+    width: 200px;
+    }
+  
+
+    /* ---------------- */
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.content{
+    position: relative;
+}
+.content h2{
+    position: absolute;
+    margin-top: 28rem;
+    margin-left: -64rem;
+    transform: translate(-50%,-50%);
+    font-size: 8em;
+}
+.content h2:nth-child(1)
+{
+    color: transparent;
+    -webkit-text-stroke: 2px#7E354D;
+
+}
+.content h2:nth-child(2)
+{
+    color:#7E354D;
+    animation: animate 4s ease-in-out infinite;
+}
+@keyframes animate {
+    0%,100%{
+        clip-path: polygon(2% 50%, 18% 46%, 32% 48%, 46% 57%, 59% 61%, 74% 60%, 90% 58%, 99% 53%, 100% 99%, 0% 100%);
+    }
+    70%{
+        clip-path: polygon(3% 56%, 16% 62%, 31% 65%, 46% 64%, 60% 55%, 76% 44%, 90% 43%, 99% 44%, 99% 99%, 0% 100%);
+    }
+}
+
+
+
+/* -----------------footer------------------- */
+.row1{
+  font-family: 'Courier New', monospace;
+  font-size: 1.3rem;
+  color: white;
+  letter-spacing: .2rem;
+  font-weight: 300;
+}
+
+.row2{
+  font-family: 'Courier New', monospace;
+  font-size: 1rem;
+  margin-top: 2.8rem;
+  color: white;
+  letter-spacing: .2rem;
+}
+
+.mail{
+  height: 30px;
+  width: 30%;
+  margin-top: 4rem;
+}
+
+.footer {
+  background-color: #7E354D;
+  padding: 8rem 0 6.4rem 0;
+}
+
+
+.main-footer {
+  padding: 0 2.4rem;
+}
+.cont{
+    margin-left: 3rem;
+}
+
+
+
+.social-list {
+  display: none;
+}
+
+
+.social-list {
+  display: flex;
+  margin-left: 20rem;
+  float: right;
+  margin-top: -17rem;
+}
+
+
+
+.social-list a {
+   transform: translate(-50%, -50%);
+   margin-left: 0.2rem;
+color: white;
+align-self: left; 
+font-size: 22px;
+
+  
+}
+
+.social-list a:first-child{
+  color: #fff;
+}
+nav a:before{
+  content: "";
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  border-bottom: 2px solid #a24463;
+}
+
+
+
+
+/* -------------footer-section-2----------- */
+
+.footer-list {
+  font-size: 1.6rem;
+  text-decoration: none;
+
+
+}
+
+.list-b ul a ,  .list-a ul a {
+  color: #fff;
+  margin-top: 2rem;
+  height: 2.4rem;
+  
+
+}
+
+.list-b{
+    margin-left: 40%;
+    margin-top: -14%;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: .2rem;
+    width: 40%;
+}
+
+
+.list-a{
+    margin-left: -14%;
+    width: 60%;
+    margin-top: -14%;
+    font-size: 1rem;
+    letter-spacing: .2rem;
+    color: white;
+}
+
+.list-a ul a:hover,
+.list-b ul a:hover
+{
+  text-decoration: underline;
+}
+
+.list-1
+{
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.line-separator2{
+  border: 1px solid #fac1ba;
+}
+
+.row{
+  color: white;
+  font-size: 1.3rem;}
+
+  .mail1{
+    font-family: 'Courier New', monospace;
+    height: 30px;
+    width: 30%;
+    font-size: 1.4rem;
+  }
+

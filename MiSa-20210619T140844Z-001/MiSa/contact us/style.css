@@ -1,0 +1,467 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 2rem;
+  
+  }
+  
+  a {
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  
+  .html {
+    font-size: 80%;
+  }
+
+  /* -----title---- */
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: sans-serif;
+
+}
+.content{
+
+    position: relative;
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    min-height: 100vh;
+
+    background:white;
+
+
+}
+
+.content h2{
+
+    position: absolute;
+
+    
+
+    transform: translate(-50%,-50%);
+
+    font-size: 8em;
+
+}
+
+.content h2:nth-child(1)
+
+{
+
+    color: transparent;
+
+    -webkit-text-stroke: 2px#7E354D;
+
+
+
+}
+
+.content h2:nth-child(2)
+
+{
+
+    color:#7E354D;
+
+    animation: animate 4s ease-in-out infinite;
+
+}
+
+@keyframes animate {
+
+    0%,100%{
+
+        clip-path: polygon(1% 48%, 16% 44%, 30% 48%, 44% 55%, 57% 59%, 72% 58%, 88% 56%, 99% 51%, 100% 99%, 0% 100%);
+
+    }
+
+    50%{
+
+        clip-path: polygon(0% 54%, 14% 60%, 29% 63%, 44% 61%, 58% 51%, 72% 42%, 88% 40%, 99% 43%, 99% 99%, 0% 100%);
+
+    }
+
+}
+  /* --------------HERO-SECTION---------------- */
+
+  .name {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #7E354D;
+    color:  white;
+    font-size: 1.5rem;
+    cursor: pointer;
+   text-align: center;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', monospace;
+  }
+
+.nav-top{
+    display: flex;
+  margin-top: -11.5rem;
+   width: 100%;
+   font-size: 15px;
+    background-color: white;
+}
+
+
+.nav-list1 {
+    display: none;
+  }
+  
+  
+  .nav-list1 {
+    display: flex;
+    margin-left: 30rem;
+    background-color: white;
+}
+
+.nav-list1 a {
+    font-family: 'Courier New', monospace;
+color: black;
+
+  }
+
+  .nav-list1 a:hover{
+    color:#CC919A;
+}
+  
+    
+
+  .nav-link1{
+     margin-left: -36rem;
+  }
+
+  .nav-link2{
+   margin-left: 23rem;
+   font-weight: 700;
+  }
+
+.nav-right{
+    margin-left: 50rem;
+    display: flex;
+}
+.nav-link3{
+    font-weight: 600;
+}
+  .nav-link3, .nav-link4 , .nav-link5{
+    margin-left: 2rem;
+   }
+  
+  .nav-list {
+    display: none;
+  }
+  
+  .nav-items-right {
+    display: inline-block;
+    align-items: right;
+  }
+  
+  
+  .nav-list {
+    display: flex;
+    margin-left: 20rem;
+   
+  }
+  
+  
+  
+  .nav-list a {
+    margin-top: 4rem;
+  transform: translate(-50%, -50%);
+  margin-left: 2rem;
+color: red;
+font-family: 'Courier New', monospace;
+font-size: 15px;
+  }
+  
+  .nav-list a:first-child{
+    color: black;
+  }
+  
+
+  nav a:before{
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    border-bottom: 2px solid #a24463;
+    transition: all 0.4s linear;
+  }
+  
+  nav a:hover:before{
+    width: 100%;  
+  
+  }
+
+  
+.line-separator{
+    border: 1px solid #7E354D;
+  }
+  
+
+  
+
+/* -----------hero-section----------- */
+
+.hero-content {
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    overflow: visible;
+   
+    
+    }
+
+
+.container{
+  margin-top: 10%;
+}
+
+
+/* --------------contactbox------------- */
+.chat{
+margin-left: -160vh;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    font-family: 'Courier New', monospace;
+    font-weight: 700;
+}
+
+.row1 ,.row2 ,.row3 ,.row4 ,.row5{
+    font-family: 'Courier New', monospace;
+    margin-left: -190vh;
+}
+
+.name_ , .mail , .order ,.cont , .msg {
+    width: 50rem;
+    font-family: 'Courier New', monospace;
+    margin-left: -190vh;
+    font-size: 1.2rem;
+}
+
+.forms{
+    margin-left: 8rem;
+}
+
+.mail{
+    height: 30px;
+}
+
+
+.order{
+    height: 30px;
+}
+
+.cont{
+    height: 30px;
+}
+
+
+.name_{
+    height: 30px;
+}
+
+.msg{
+    height: 90px;
+}
+
+.submit{
+    height: 28px;
+margin-left: -190vh;
+width: 50rem;
+   background-color: #37021c;
+   border: 1px solid #37021c;
+   color: white;
+   font-size: 1.4rem;
+   font-family: 'Courier New', monospace;
+}
+
+.submit:hover
+{
+background-image:none;
+background-color:#D9B4C0;
+}
+
+
+
+
+/* -----------------footer------------------- */
+.r1{
+  font-family: 'Courier New', monospace;
+  font-size: 1.3rem;
+  color: white;
+  letter-spacing: .2rem;
+  font-weight: 300;
+}
+
+.r2{
+  font-family: 'Courier New', monospace;
+  font-size: 1rem;
+  margin-top: 2.8rem;
+  color: white;
+  letter-spacing: .2rem;
+}
+
+
+.footer {
+  background-color: #7E354D;
+  padding: 8rem 0 6.4rem 0;
+  margin-top: 5rem;
+}
+
+
+.main-footer {
+  padding: 0 2.4rem;
+}
+.base{
+    margin-left: 3rem;
+}
+
+
+
+.social-list {
+  display: none;
+}
+
+
+.social-list {
+  display: flex;
+  margin-left: 20rem;
+  float: right;
+  margin-top: -17rem;
+}
+
+
+
+.social-list a {
+   transform: translate(-50%, -50%);
+   margin-left: 0.2rem;
+color: white;
+align-self: left; 
+font-size: 22px;
+
+  
+}
+
+.social-list a:first-child{
+  color: #fff;
+}
+nav a:before{
+  content: "";
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  border-bottom: 2px solid #a24463;
+}
+
+
+
+/* -------------footer-section-2----------- */
+
+.footer-list {
+  font-size: 1.6rem;
+  text-decoration: none;
+
+
+}
+
+.list-b ul a ,  .list-a ul a {
+  color: #fff;
+  margin-top: 2rem;
+  height: 2.4rem;
+  
+
+}
+
+.list-b{
+    margin-left: 40%;
+    margin-top: -14%;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: .2rem;
+    width: 40%;
+}
+
+
+.list-a{
+    margin-left: -14%;
+    width: 60%;
+    margin-top: -14%;
+    font-size: 1rem;
+    letter-spacing: .2rem;
+    color: white;
+}
+
+.list-a ul a:hover,
+.list-b ul a:hover
+{
+  text-decoration: underline;
+}
+
+.list-1
+{
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.line-separator2{
+  border: 1px solid #fac1ba;
+}
+
+.row{
+  color: white;
+  font-size: 1.3rem;}
+
+  .email1{
+    font-family: 'Courier New', monospace;
+    height: 30px;
+    width: 30%;
+    font-size: 1.4rem;
+  }
+

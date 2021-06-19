@@ -1,0 +1,438 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 2rem;
+  
+  }
+  
+  a {
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  
+  .html {
+    font-size: 80%;
+  }
+  /* --------------HERO-SECTION---------------- */
+
+  .name {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #7E354D;
+    color:  white;
+    font-size: 1rem;
+    cursor: pointer;
+   text-align: center;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', monospace;
+  }
+
+.nav-top{
+    display: flex;
+  margin-top: -7.5rem;
+   width: 100%;
+   font-size: 15px;
+    background-color: white;
+}
+
+
+.nav-list1 {
+    display: none;
+  }
+  
+  
+  .nav-list1 {
+    display: flex;
+    margin-left: 30rem;
+    background-color: white;
+}
+
+.nav-list1 a:hover{
+    color:#CC919A;
+}
+.nav-list1 a {
+    font-family: 'Courier New', monospace;
+color: black;
+
+  }
+
+  
+    
+
+  .nav-link1{
+     margin-left: -34rem;
+     
+  }
+
+  .nav-link2{
+   margin-left: 6rem;
+   font-weight: 700;
+  }
+
+  .nav-right{
+    margin-left: 30rem;
+    display: flex;
+}
+.nav-link3{
+    font-weight: 600;
+    
+}
+  .nav-link3, .nav-link4 , .nav-link5{
+    margin-left: 2rem;
+   }
+  
+  .nav-list {
+    display: none;
+  }
+  
+  .nav-items-right {
+    display: inline-block;
+    align-items: right;
+  }
+  
+  
+  .nav-list {
+    display: flex;
+    margin-left: 15rem;
+   
+  }
+  
+  
+  
+  .nav-list a {
+    margin-top: 2rem;
+  transform: translate(-50%, -50%);
+  margin-left: 1rem;
+font-family: 'Courier New', monospace;
+font-size: 15px;
+  }
+  
+  .nav-list a:first-child{
+    color: black;
+  }
+  
+
+  nav a:before{
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    border-bottom: 2px solid #a24463;
+    transition: all 0.4s linear;
+  }
+  
+  nav a:hover:before{
+    width: 100%;  
+  
+  }
+
+  
+.line-separator{
+    border: 1px solid #7E354D;
+    
+  }
+  
+
+  
+
+/* -----------hero-section----------- */
+
+.hero-content {
+    background-color: #f3ced6;
+    background-size: cover;
+    background-position: center;
+    height: 180vh;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    overflow: visible;
+   
+    
+    }
+
+
+.container{
+  margin-top: 10%;
+}
+
+.text{
+margin-left: 40rem;
+margin-top: -27rem;
+font-family: 'Courier New', monospace;
+}
+
+.para{
+  font-size: 0.9rem;
+}
+
+.primary-title{
+  font-family: 'Courier New', monospace;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.secondary-title{
+  font-family: 'Courier New', monospace;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.visit{
+  text-decoration: underline;
+}
+
+.visit:hover{
+  color: #531f31;
+}
+
+.value{
+  
+
+    font-family: 'Courier New', monospace;
+    height: 22px;
+    width: 30rem;
+  font-size: 0.7rem;
+  margin-top: -1rem;
+  margin-bottom: 1.5rem;
+}
+
+.checkbox{
+  font-size: 0.8rem;
+ margin-left: 0.7rem;
+ margin-top: -1rem;
+}
+
+/* --------------contactbox------------- */
+.row1{
+  margin-top: 1.5rem;
+  font-family: 'Courier New', monospace;
+  margin-left: -8rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+  
+  .row2 ,.row3 ,.row4 {
+      font-family: 'Courier New', monospace;
+    margin-left: -8rem;
+    font-size: 0.9rem;
+    margin-top: -1rem;
+    font-weight: 400;
+  }
+  
+  .name1 , .mail , .name2, .msg {
+      width: 30rem;
+      font-family: 'Courier New', monospace;
+      margin-left: -8rem;
+      font-size: 0.7rem;
+  }
+  
+  .forms{
+      margin-left: 8rem;
+  }
+  
+  .mail{
+      height: 25px;
+  }
+  
+  
+  
+  .name2{
+      height: 25px;
+  }
+  
+  
+  .name1{
+      height: 25px;
+  }
+  
+  .msg{
+      height: 60px;
+  }
+  
+  .submit{
+      height: 25px;
+  margin-left: -8rem;
+  width: 30rem;
+     background-color: #37021c;
+     border: 1px solid #37021c;
+     color: white;
+     font-size: 0.9rem;
+     font-family: 'Courier New', monospace;
+  }
+  
+  .submit:hover
+  {
+  background-image:none;
+  background-color:#CC919A;
+  }
+  
+
+  
+/* -----------------footer------------------- */
+.r1{
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+  color: white;
+  letter-spacing: .2rem;
+  font-weight: 300;
+  margin-top: -3%;
+  margin-left: -3%;
+}
+
+.r2{
+  font-family: 'Courier New', monospace;
+  font-size: 0.7rem;
+  margin-top: 2.3rem;
+  color: white;
+  letter-spacing: .2rem;
+  margin-left: -3%;
+}
+
+
+.footer {
+  background-color: #7E354D;
+  padding: 8rem 0 6.4rem 0;
+  margin-top: 3rem;
+  height: 75vh;
+}
+
+
+.main-footer {
+  padding: 0 2.4rem;
+}
+.base{
+    margin-left: 3rem;
+}
+
+
+
+.social-list {
+  display: none;
+}
+
+
+.social-list {
+  display: flex;
+  margin-left: 20rem;
+  float: right;
+  margin-top: -13rem;
+}
+
+
+
+.social-list a {
+   transform: translate(-50%, -50%);
+   margin-left: 0.2rem;
+color: white;
+align-self: left; 
+font-size: 22px;
+
+  
+}
+
+.social-list a:first-child{
+  color: #fff;
+}
+nav a:before{
+  content: "";
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  border-bottom: 2px solid #a24463;
+}
+
+
+
+/* -------------footer-section-2----------- */
+
+.footer-list {
+  font-size: 1.6rem;
+  text-decoration: none;
+
+
+}
+
+.list-b ul a ,  .list-a ul a {
+  color: #fff;
+  margin-top: 1.8rem;
+  height: 1rem;
+  
+
+}
+
+.list-b{
+    margin-left: 40%;
+    margin-top: -15%;
+    font-size: 0.6rem;
+    color: white;
+    letter-spacing: .2rem;
+    width: 40%;
+}
+
+
+.list-a{
+    margin-left: -14%;
+    width: 60%;
+    margin-top: -15%;
+    font-size: 0.6rem;
+    letter-spacing: .2rem;
+    color: white;
+}
+
+.list-a ul a:hover,
+.list-b ul a:hover
+{
+  text-decoration: underline;
+}
+
+.list-1
+{
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.line-separator2{
+  border: 1px solid #fac1ba;
+  margin-top: -3%;
+}
+
+.row{
+  color: white;
+  font-size: 0.9rem;}
+
+  .email1{
+    font-family: 'Courier New', monospace;
+    height: 30px;
+    width: 30%;
+    font-size: 1rem;
+    margin-left: -3%;
+  }

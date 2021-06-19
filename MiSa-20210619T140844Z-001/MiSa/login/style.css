@@ -1,0 +1,385 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 2rem;
+  
+  }
+  
+  a {
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  
+  .html {
+    font-size: 80%;
+  }
+
+
+  /* --------------HERO-SECTION---------------- */
+
+  .name {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #7E354D;
+    color:  white;
+    font-size: 1.5rem;
+    cursor: pointer;
+   text-align: center;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', monospace;
+  }
+
+.nav-top{
+    display: flex;
+  margin-top: 0.5rem;
+   font-size: 15px;
+    background-color: white;
+}
+
+
+.nav-list1 {
+    display: none;
+  }
+  
+  
+  .nav-list1 {
+    display: flex;
+    margin-left: 30rem;
+    background-color: white;
+}
+
+.nav-list1 a {
+    font-family: 'Courier New', monospace;
+color: black;
+
+  }
+
+  
+.nav-list1 a:hover{
+  color:#CC919A;
+}
+  
+    
+
+  .nav-link1{
+     margin-left: -36rem;
+  }
+
+  .nav-link2{
+   margin-left: 23rem;
+   font-weight: 700;
+  }
+
+.nav-right{
+    margin-left: 50rem;
+    display: flex;
+}
+.nav-link3{
+    font-weight: 600;
+}
+  .nav-link3, .nav-link4 , .nav-link5{
+    margin-left: 2rem;
+   }
+  
+  .nav-list {
+    display: none;
+  }
+  
+  .nav-items-right {
+    display: inline-block;
+    align-items: right;
+  }
+  
+  
+  .nav-list {
+    display: flex;
+    margin-left: 20rem;
+   
+  }
+  
+  
+  
+  .nav-list a {
+    margin-top: 2rem;
+  transform: translate(-50%, -50%);
+  margin-left: 3rem;
+font-family: 'Courier New', monospace;
+font-size: 15px;
+  }
+  
+  .nav-list a:first-child{
+    color: black;
+  }
+  
+  
+
+  nav a:before{
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    border-bottom: 2px solid #a24463;
+    transition: all 0.4s linear;
+  }
+  
+  nav a:hover:before{
+    width: 100%;  
+  
+  }
+
+  
+.line-separator1{
+    border: 1px solid #7E354D;
+  }
+  
+
+  /* ------------------ */
+
+  .hero-section {
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+margin-top: -1rem;
+    
+    }
+
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', monospace;
+    
+}
+.box{
+    width: 40%;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    text-align: center;
+    margin-top: 10rem;
+}
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(63, 42, 45);
+    text-size-adjust: 100%;
+
+}
+.box input[type="text"], .box input[type="password"]
+{ 
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: left;
+    border: 3px solid #3f2a2d;
+    padding: 14px 40px;
+    width: 220px;
+    outline: none;
+    color:#3f2a2d;
+    border-radius: 4px;
+    transition: 0.25px;
+    
+
+
+}
+.box input[type="text"]:focus, .box input[type="password"]:focus{
+
+}
+.box input[type="submit"]{
+    border: 0;
+    background: #3f2a2d;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px ;
+    padding: 14px 40px;
+    width: 220px;
+    outline: none;
+    color:#fff;
+    border-radius: 4px;
+    transition: 0.25px;
+    cursor: pointer;
+
+}
+.box input[type="submit"]:hover{
+    background:#ff8771 ;
+}
+
+
+/* ----------------------- *
+
+
+/* -----------------footer------------------- */
+.row1{
+    font-family: 'Courier New', monospace;
+    font-size: 1.3rem;
+    color: white;
+    letter-spacing: .2rem;
+    font-weight: 300;
+  }
+  
+  .row2{
+    font-family: 'Courier New', monospace;
+    font-size: 1rem;
+    margin-top: 2.8rem;
+    color: white;
+    letter-spacing: .2rem;
+  }
+  
+  .mail{
+    height: 30px;
+    width: 30%;
+    margin-top: 4rem;
+  }
+  
+  .footer {
+    background-color: #7E354D;
+    padding: 8rem 0 6.4rem 0;
+  }
+  
+  
+  .main-footer {
+    padding: 0 2.4rem;
+  }
+  .cont{
+      margin-left: 3rem;
+  }
+  
+  
+  
+  .social-list {
+    display: none;
+  }
+  
+  
+  .social-list {
+    display: flex;
+    margin-left: 20rem;
+    float: right;
+    margin-top: -17rem;
+  }
+  
+  
+  
+  .social-list a {
+     transform: translate(-50%, -50%);
+     margin-left: 0.2rem;
+  color: white;
+  align-self: left; 
+  font-size: 22px;
+  
+    
+  }
+  
+  .social-list a:first-child{
+    color: #fff;
+  }
+  nav a:before{
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    border-bottom: 2px solid #a24463;
+  }
+  
+  
+  
+  
+  /* -------------footer-section-2----------- */
+  
+  .footer-list {
+    font-size: 1.6rem;
+    text-decoration: none;
+  
+  
+  }
+  
+  .list-b ul a ,  .list-a ul a {
+    color: #fff;
+    margin-top: 2rem;
+    height: 2.4rem;
+    
+  
+  }
+  
+  .list-b{
+      margin-left: 40%;
+      margin-top: -14%;
+      font-size: 1rem;
+      color: white;
+      letter-spacing: .2rem;
+      width: 40%;
+  }
+  
+  
+  .list-a{
+      margin-left: -14%;
+      width: 60%;
+      margin-top: -14%;
+      font-size: 1rem;
+      letter-spacing: .2rem;
+      color: white;
+  }
+  
+  .list-a ul a:hover,
+  .list-b ul a:hover
+  {
+    text-decoration: underline;
+  }
+  
+  .list-1
+  {
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  .line-separator2{
+    border: 1px solid #fac1ba;
+  }
+  
+  .row{
+    color: white;
+    font-size: 1.3rem;}
+  
+    .mail1{
+      font-family: 'Courier New', monospace;
+      height: 30px;
+      width: 30%;
+      font-size: 1.4rem;
+    }
+  
+  
