@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <script src="login2.js"></script>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Courier New', monospace;
+        background-image: url(./bg.jpg);
+        background-size: cover;
+        
+    }
+    .box{
+        width: 40%;
+        padding: 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background: #fff;
+        text-align: center;
+    }
+    .box h1{
+        color: white;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: rgb(63, 42, 45);
+        text-size-adjust: 100%;
+
+    }
+    .box input[type="email"], .box input[type="password"]
+    { 
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: left;
+        border: 3px solid #3f2a2d;
+        padding: 14px 40px;
+        width: 220px;
+        outline: none;
+        color:#3f2a2d;
+        border-radius: 4px;
+        transition: 0.25px;
+        
+
+
+    }
+    
+    .box input[type="submit"]{
+        border: 0;
+        background: #3f2a2d;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 3px ;
+        padding: 14px 40px;
+        width: 220px;
+        outline: none;
+        color:#fff;
+        border-radius: 4px;
+        transition: 0.25px;
+        cursor: pointer;
+
+    }
+    .box input[type="submit"]:hover{
+        background:#ff8771 ;
+    }
+</style>
+<body>
+    <form class="box" action="/signin" method="POST" >
+        <h1>
+            SIGN IN TO YOUR ACCOUNT
+        </h1>
+        <input type="email" name="email" placeholder="Email" id="Email">
+        <br>
+        <input type="password" name="password" placeholder="Password" id="Password">
+        <br>
+        <input type="submit" value="SIGN IN" >
+        
+    </form>
+</body>
+</html>
